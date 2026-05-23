@@ -1,4 +1,4 @@
-# peculiadades do print
+# peculiaridades do print
 
 # por extenso
 print("olá mundo ")
