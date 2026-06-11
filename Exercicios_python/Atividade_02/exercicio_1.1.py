@@ -19,3 +19,5 @@ if media_final >= 6.0:
     print("Aluno aprovado!")
 else:
     print("Aluno reprovado!")
+
+    
