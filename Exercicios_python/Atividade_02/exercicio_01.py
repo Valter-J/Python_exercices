@@ -49,9 +49,9 @@ print(calnumb1)
 prim = 20
 sec = 10
 
-if prim < sec:
+if (prim < sec):
     prim = prim / 2
-if prim < 2 * sec:
+if (prim < 2 * sec):
     prim = prim * 2
     sec = sec / 2
 else:
@@ -60,10 +60,64 @@ else:
 
 elasSaoIguais = prim == sec
 
-if elasSaoIguais:
+if (elasSaoIguais):
     prim = prim + 1
 
 print(prim, sec)
 
+# Pense neste código em execução. Responda às perguntas abaixo:
+
+# Quantas vezes, no total, o computador executa uma expressão condicional (de qualquer if)?
+# 0
+
+# Quantas vezes, no total, a expressão de um comando condicional if é avaliada para True?
+# 0 
+
+# O if do meio possui um else. Quantas vezes o bloco da falsidade é executado?
+# 1
+
+# O que a última linha de código imprime no console?
+# 21 9
+
+
+
+# Exercício 05
+
+# Reflita sobre o seguinte programa em Python (preste muita atenção nas 
+# identação para observar onde começam e terminam os blocos):
+
+number = int(input())
+
+
+if (number > 0):
+  if (number % 2 == 0):
+    print("A")
+  else:
+    print("B")
+  print("C")
+print("D")
+
+if (number > 0):
+  if (number % 2 == 0):
+    print("E")
+  print("F")
+else:
+  print("G")
+print("H")
+
+
+# Pense neste código em execução. Responda às perguntas abaixo:
+
+# Quais são as letras mostradas no console quando o programa acima é executado e a variável number tem o valor de 5?
+# B C D F H
+
+# Quais são as letras mostradas no console quando o programa acima é executado e a variável number tem o valor de 6?
+# A C D E F
+
+# Quais são as letras mostradas no console quando o programa acima é executado e a variável number tem o valor de -5?
+# D G H
+
+# Quais são as letras mostradas no console quando o programa acima é executado e a variável number tem o valor de -6?
+#  D G H
 
 
