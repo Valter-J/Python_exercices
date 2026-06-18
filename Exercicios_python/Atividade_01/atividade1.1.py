@@ -1,5 +1,5 @@
 # Exercicio 4:
-import math
+
 
 areaM2 = 0
 cobTinta =20
