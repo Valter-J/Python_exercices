@@ -75,3 +75,40 @@ if 0 <= indice < len(estoque):
     print(estoque[indice])
 else:
     print("Indice inválido")
+
+
+# Exercício 06
+
+
+estoque = ["sabão", "amaciante", "detergente", "desinfetante", "sabão em pedra", "limpa vidros"]
+elem = "Alcool"
+
+
+
+#Procurar índice do elemento detergente
+
+indice = estoque.index("detergente")
+print(indice)
+
+#Cria uma nova lista desde o seu inicio até o elemento detergente (incluso)
+temp1 = estoque[0:4]
+print(temp1)
+
+#Cria uma nova lista a partir do elemento após o detergente até o fim da lista
+
+temp2 =estoque[3:]
+print(temp2)
+
+#Insere "Alcool" na primeira posição da lista
+
+estoque.insert(0,elem)
+print(estoque)
+
+#Junta as duas listas em uma única lista -- na variável estoque
+
+estoque=temp1 + temp2
+
+#mostra na tela o restulado
+print(estoque)
+
+

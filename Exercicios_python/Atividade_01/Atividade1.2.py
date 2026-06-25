@@ -16,7 +16,7 @@ while(opcao != 5):
         case 1:
 
             medioPrixicita = int(input("Digite quantos comprimidos de Prixicliato de Citamina Dona V tem: "))
-            valorTotalMes = 30 * int(input("Digite quantos quantas vezes pode dia Dona V toma o remédio: "))
+            valorTotalMes = 30 * int(input("Digite quantos quantas vezes por dia Dona V toma o remédio: "))
            
 
             if (medioPrixicita <= valorTotalMes):
@@ -33,7 +33,7 @@ while(opcao != 5):
         case 2:
 
             medioZitaropan = int(input("Digite quantos comprimidos de Zitaropan Dona V tem: "))
-            valorTotalMes = 30 * int(input("Digite quantos quantas vezes pode dia Dona V toma o remédio: "))
+            valorTotalMes = 30 * int(input("Digite quantos quantas vezes por dia Dona V toma o remédio: "))
            
 
             if ( medioZitaropan <= valorTotalMes):
@@ -49,7 +49,7 @@ while(opcao != 5):
         case 3:
 
             medioMadozol = int(input("Digite quantos comprimidos de Madozol Dona V tem: "))
-            valorTotalMes = 30 * int(input("Digite quantos quantas vezes pode dia Dona V toma o remédio: "))
+            valorTotalMes = 30 * int(input("Digite quantos quantas vezes por dia Dona V toma o remédio: "))
            
 
             if ( medioMadozol <= valorTotalMes):
@@ -65,7 +65,7 @@ while(opcao != 5):
         case 4:
 
             medioTilazinan = int(input("Digite quantos comprimidos de Tilazinan Dona V tem: "))
-            valorTotalMes = 30 * int(input("Digite quantos quantas vezes pode dia Dona V toma o remédio: "))
+            valorTotalMes = 30 * int(input("Digite quantos quantas vezes por dia Dona V toma o remédio: "))
            
 
             if ( medioTilazinan<= valorTotalMes):
