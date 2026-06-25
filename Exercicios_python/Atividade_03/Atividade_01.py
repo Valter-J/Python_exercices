@@ -26,14 +26,52 @@ teste[indice] = 0
 
 # TODO: Fazer com o while
 
+
 # Exercício 03
 
 #Inserindo um elemento na última posição da lista
 
 numeros = [0.1, 2.3, 0, -3.1, 5.0, 7.1, 25.9]
 
-numeros.insert(1,4)
+numeros.insert(7,4)
 
 print(len(numeros))
 print(numeros[-1])
 
+# Exercício 04
+
+estoque = ["sabão", "amaciante", "detergente", "desinfetante", "sabão em pedra", "limpa vidros"]
+estoque.pop()
+estoque.pop(0)
+estoque.pop()
+estoque.pop()
+print(estoque)
+
+# Reposta: ['amaciante', 'detergente']
+
+# Exércicio 5
+
+estoque = ["sabão", "amaciante", "detergente", "desinfetante", "sabão em pedra", "limpa vidros"]
+elem = "detergente"
+
+#Procurar índice do elemento
+
+indice = estoque.index("amaciante")
+print(indice)
+
+#testar se o índice está nos limites da lista
+
+
+
+#remover o elemento e imprimir a lista
+estoque.pop(0)
+print(estoque)
+
+#ou apresentar mensagem de que o elemento não existe.
+
+indice = 6
+
+if 0 <= indice < len(estoque):
+    print(estoque[indice])
+else:
+    print("Indice inválido")
