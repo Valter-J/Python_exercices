@@ -18,9 +18,18 @@ print(lista)
 
 # Calcule e imprima qual é o maior e o menor elemento desta lista
 
+lista.sort()
 
+print(" --------------- lista do maior---------------- ")
+print(lista[-1])
+
+print(" --------------- lista do menor ---------------- ")
+
+print(lista[0])
 
 # Copie a lista que você gerou para outra lista, mas contendo apenas os números maiores do que N/2
+
+
 # Limpe a lista original
 # Selecione um item de uma posição aleatória da lista e o remova
 # Calcule e imprima qual é o segundo maior e o segundo menor elemento desta lista
