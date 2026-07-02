@@ -15,16 +15,18 @@ print(meuImposto)
 
 # Qual é o valor impresso no console ao final da sua execução?
 
-# reposta : 65150
+# Reposta : 65150
 
 # As linhas do programa estão numeradas de 1 a 8. Qual a sequência em que essas linhas são executadas?
 
-#  a sequência seria: 1, 6, 1, 2, 3, 4, por último 7. 
+
+# Reposta: a sequência seria: 1, 6, 1, 2, 3, 4, por último 7. 
 
 
 # Na linha 2, quanto valem os parâmetros renda, rendaMinima, baseCalculo e baseAdicional?
 
-# renda: 800, rendaMinima: 150, baseCalculo: 200, baseAdicional: 100.  
+
+# Reposta: renda: 800, rendaMinima: 150, baseCalculo: 200, baseAdicional: 100.  
 
 
 
@@ -41,15 +43,20 @@ def calcularMedia ( nota1, nota2, nota3 ):
   media = nota1 + nota2 + nota3/3
 
   aprovado = media >= 6
-  reprovado = media <= 6
-  if (aprovado):
-     print("Você está aprovado")
   
+  if (aprovado):
+    resultado = "Você está aprovado"
   
   else:
-    print("Você está reprovado")
+   resultado = "Você está reprovado"
+
+  return resultado
   
 resultadoAluno1 = calcularMedia(3, 6, 9)
 print(resultadoAluno1)
-resultadoAluno2 = calcularMedia(4,3, 5)
+resultadoAluno2 = calcularMedia(4 ,3, 5)
 print(resultadoAluno2)
+
+
+
+
