@@ -22,3 +22,4 @@ for i in range(2, 11):
 print("Maior número:", maior)
 print("Menor número:", menor)
 
+
