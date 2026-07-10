@@ -13,4 +13,19 @@ n = int(input("Digite quantas elementos terá na lista: "))
 for _ in range(n):
     lista.append(randint(1,100))
 
+print(lista)
+
+for a in lista:
+
+    if (a % 2 == 0):
+
+        posicao = lista.index(a)
+        aposPosicao = posicao + 1
+        aposPosicaoValor= lista[aposPosicao]
+
+    print(f"Valor do primeiro: {a} , sua posição {posicao}, O valor do item após o primeiro {aposPosicaoValor} e sua posição é {aposPosicao}")
+
+
+
+
 
