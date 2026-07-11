@@ -9,9 +9,6 @@ só usá-la.
 # Cada produto é: [nome, preco, quantidade]
 
 
-
-
-
 from asyncio.windows_events import NULL
 
 

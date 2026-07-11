@@ -5,12 +5,8 @@
 #  que esta informação não poderá ser posteriormente
 #  alterada dentro do programa."
 
-
-
 SERVIDOR = "LOCALHOST:8080/"
 SENHA = "ROOT"
-
-
 
 # Papel 2: Passo
 # Programa exemplo
@@ -23,13 +19,10 @@ for base in range(1,11):
     print(str(n) + "x" + str(base) + "=" + str(base * n))
 
 
-
 # Papel 3: O Detentor Mais Recente
 # Programa exemplo
 # "Escreva um programa que leia um número e o ensira em uma lista. 
 # A inserção de valores termina quando o usuário digitar um número negativo."
-
-
 
 
 x = int(input("Digite um número para criar a lista"))
