@@ -23,7 +23,7 @@ for a in lista:
         aposPosicao = posicao + 1
         aposPosicaoValor= lista[aposPosicao]
 
-    print(f"Valor do primeiro: {a} , sua posição {posicao}, O valor do item após o primeiro {aposPosicaoValor} e sua posição é {aposPosicao}")
+    print(f"Valor do primeiro numero par: {a} , sua posição {posicao}, O valor do item após o primeiro {aposPosicaoValor} e sua posição é {aposPosicao}")
 
 
 
