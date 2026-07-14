@@ -16,13 +16,14 @@ lista2=[]
 
 for i in lista:
 
-    verificador=i
+     for a in lista:
+        if ( i >= i):
+            lista2.append(i)
+        else:
+            contador= len(lista2)
+            lista2.insert(contador - 1, i)
 
-    if (i >= verificador):
-        lista2.append(i)
-    else:
-        contador= lista2.index(i)
-        lista2.insert(contador - 1, i)
+
 
 
 print(lista)
