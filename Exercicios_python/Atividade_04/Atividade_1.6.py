@@ -31,8 +31,5 @@ for i in lista:
         
 
 
-
-
-
 print(lista)
 print (lista2)
