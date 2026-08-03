@@ -77,7 +77,7 @@ def buscar_produto(estoque, nomeProduto):
     # para comparar sem se importar com maiúsculas/minúsculas    
     for p2 in estoque:
         if (nomeProduto in p2[0].lower()):
-            return p2
+            return p2[0]
     
     return NULL
     
@@ -89,17 +89,30 @@ def valor_total_estoque(estoque):
     qtdTotal = 0
 
     for i in estoque:
-        qtdTotal += i[1]
-        print("Valor total: ")
+        qtdTotal += i[1]*i[2]
+        print("Valor total em R$: ")
     return qtdTotal
         
 
     
 
 
-def produtos_estoque_baixo(estoque):
+def produtos_estoque_baixo(estoque, nomeProduto):
     """Pergunta um limite e lista os produtos com quantidade <= limite."""
     # TODO
+
+    print("Métrica para volume no Estoque: ")
+    print("ESTOQUE MUITO: BAIXO  < 15  ")
+    print("ESTOQUE MÉDIO: 20 AND 60")
+    print("ESTOQUE BOM: > 60 ")
+
+    produto = buscar_produto(estoque, nomeProduto)
+    
+    if (produto != NULL):
+        for i in estoque:
+            i[2]
+            
+        
     
     
 
