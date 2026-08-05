@@ -110,13 +110,31 @@ def produtos_estoque_baixo(estoque, nomeProduto):
     
     if (produto != NULL):
         for i in estoque:
-            i[2]
+            if (produto in i[0].lower()):
+                if (i[2] < 15):
+                    print(f"O produto {produto} está com Estoque: BAIXO. ")
+
+                    return True
+                
+                elif (i[2] < 60):
+                    print(f"O produto {produto} está com Estoque: Médio. ")
+
+                    return True
+                else:
+                    print(f"O produto {produto} está com Estoque: Bom. ")
+
+                    return True
+            else:
+                continue
+
+    else:
+        print("Produto não achado")
+        return False
             
         
     
     
 
-    pass
 
 
 def registrar_venda(estoque):
@@ -128,7 +146,14 @@ def registrar_venda(estoque):
     # 4. se encontrar, peça a quantidade vendida
     # 5. se a quantidade vendida for maior que a disponível, avise e não venda
     # 6. caso contrário, subtraia do estoque e mostre o valor da venda
-    pass
+    
+    produto= buscar_produto(estoque, input("Digite o nome do Produto que desejar cadastrar"))
+
+    if produto is None:
+        print("Produto não encontrado. ")
+
+    
+
 
 
 def mostrar_menu():
